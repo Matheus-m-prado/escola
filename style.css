@@ -50,7 +50,8 @@ body{
     box-shadow: 7px 7px 20px 0px rgba(50, 50, 50, 0.22);
     padding: 40px;
     margin: 20px;
-    width: 80vw;
+    width: 100vw;
+    max-width: 50vw;
     text-align: center;
     color: var(--title);
     transition: all 0.3s ease-out;
@@ -78,6 +79,7 @@ a{
 }
 .aluno img{
     width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid var(--roxo);
 }
@@ -324,7 +326,8 @@ a{
     border-radius: 50%;
     border: 2px solid var(--roxo);
     margin-top: -15vh;
-    width: 15vw;
+    width: 200px;
+    height: 200px;
     z-index: 999;
     position: relative;
     transition: all 0.5s ease;
@@ -359,6 +362,9 @@ span{
 }
 
 @media (max-width: 1000px){
+    .card{
+        max-width: 80vw;
+    }
     .cards-e{
         flex-direction: column;
     }
@@ -443,59 +449,3 @@ input:checked + label::after {
 label:active:after {
     width: 45px;
 }
-
-
-/* ↑ NÃO MEXER DAQUI PARA CIMA ↑ */
-/* --------------------------- */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/* ---------------------------------------- */
-/* ↓ ADICIONAR COMANDOS DAQUI PARA BAIXO ↓ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
